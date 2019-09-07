@@ -56,7 +56,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,6 +70,10 @@ h1, h2, h3, h4, h5 {
 a {
 	text-decoration:none;
 	color: gray;
+}
+
+a:hover{
+	color: black;
 }
 
 .container{
@@ -87,6 +91,7 @@ a {
 	line-height: 100px;
 	background-color:white;
 	border-bottom: solid 2px;
+	overflow: hidden;
 }
 
 .header a{
@@ -142,6 +147,14 @@ a {
 	display:inline-block;
 	width:50%;
 	text-align:center;
+	height:380px;
+}
+
+.img{
+	background-image: url("../img/header-img.png");
+	background-size:auto;
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
 .info{
@@ -160,6 +173,11 @@ a {
 	width:100%;
 	padding:25px;
 }
+
+.info div{
+	padding-right:5px;
+}
+
 .features{
 	width:50%;
 }
